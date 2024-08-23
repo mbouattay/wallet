@@ -1,0 +1,49 @@
+
+.header_container{
+    background-color:#ffff;
+    margin-top: 33px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.header_container h1{
+    font-family: "Noto Sans" ; 
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.header_container .btn_add_Depenses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 30px;
+    background-color: rgba(234, 189, 77, 0.66);
+    cursor: pointer;
+}
+
+.header_container .btn_add_Depenses label {
+    color:  #7E7E7E;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.header_container .btn_add_Depenses:hover{
+    background-color: rgba(234, 190, 77, 0.888);
+}
+.table_Container{
+    background-color:#ffff;
+    margin-top: 33px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 550px;
+
+}
+.date{
+   width: 200px;
+   height: 40px;
+   margin-right: 20px;
+}

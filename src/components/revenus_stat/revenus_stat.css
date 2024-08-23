@@ -1,0 +1,42 @@
+.revenus-statistique{
+    background-color: aliceblue;
+    margin-left: 80px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+.header-revenus-statistique{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.header-revenus-statistique h1{
+    margin-left: 20px;
+    font-family: "Noto Sans" ; 
+    font-size: 20px;
+}
+.chart-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Doughnut{
+   width: 400px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-right: 30px;
+}
+.bar{
+    width: 600px;
+    height: 300px;
+    margin-left: 30px;
+}

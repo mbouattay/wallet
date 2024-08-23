@@ -1,0 +1,28 @@
+.header-tab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+   margin-bottom: 20px;
+}
+.header-tab .add-categorie-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 30px;
+    background-color: rgba(234, 189, 77, 0.66);
+    cursor: pointer;
+}
+.header-tab .add-categorie-btn label {
+    color:  #7E7E7E;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.header-tab .add-categorie-btn:hover{
+    background-color: rgba(234, 190, 77, 0.888);
+}

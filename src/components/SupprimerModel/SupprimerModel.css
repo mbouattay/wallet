@@ -1,0 +1,32 @@
+.btn-group1{
+    width: 460px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn-group1 .btn-A{
+    width: 200px ;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Noto Sans" ; 
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-group1 .btn-S{
+    width: 200px ;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Noto Sans" ; 
+    font-weight: 500;
+    background-color: rgba(245, 45, 45, 0.742);
+    cursor: pointer;
+}
+
+.btn-group1 .btn-S:hover{
+    background-color: rgb(247, 70, 70);
+}

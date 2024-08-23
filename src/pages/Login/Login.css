@@ -1,0 +1,35 @@
+.login-container{
+    border-radius: 30px;
+    background-color: rgba(236, 236, 232, 0.61);
+    width: 700px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login-container h1 {
+    font-family: "Noto Sans" ; 
+    text-transform: uppercase;
+
+}
+.btn-login{
+        background-color: rgba(234, 190, 77, 0.888); 
+        width: 460px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+}
+.forgot{
+    width:460px ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: "Noto Sans" ; 
+    text-transform: uppercase;
+    cursor: pointer;
+}
